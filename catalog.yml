@@ -1,0 +1,9 @@
+PostgreSQLSettings:
+  ConnectionString: Host=localhost:5432;Database=Catalog;Username=postgres;Password=postgres
+RedisSettings:
+  Password: redisPassword
+  HostName: localhost
+  InstaceName: master
+KafkaSettings:
+  BootstrapServer: localhost:9092
+  SchemaRegistryUrl: http://localhost:8081
